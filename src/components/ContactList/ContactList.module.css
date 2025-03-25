@@ -1,0 +1,21 @@
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.deleteButton {
+  background: #dc3545;
+  padding: 5px 10px;
+}
+
+.deleteButton:hover {
+  background: #c82333;
+}
